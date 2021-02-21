@@ -8,7 +8,7 @@ class IssueCardsListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      shrinkWrap: true,
+      padding: EdgeInsets.all(0.0),
       itemCount: items.length,
       itemBuilder: (BuildContext context, int index) {
         return IssueCard();

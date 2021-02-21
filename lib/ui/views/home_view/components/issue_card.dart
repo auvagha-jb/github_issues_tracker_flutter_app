@@ -30,7 +30,7 @@ class IssueCard extends StatelessWidget {
             text: TextSpan(
               text: 'Compilation error building on iOS simulator: fatal error could not build module '
                   '\'Foundation\' ',
-              style: TextStyle(fontSize: 17, color: Colors.black),
+              style: TextStyle(fontSize: 17, color: AppTheme.cardBodyColor),
               children: <TextSpan>[
                 TextSpan(
                   text: '#43713',

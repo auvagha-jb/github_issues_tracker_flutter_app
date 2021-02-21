@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
   static const primaryColor = Color(0xffECF3F9);//Search bar background
-  static const accentColor = Color(0xff7E95A7);
+  static const accentColor = Color(0xff7E95A7);//Search bar icons color
   static const backgroundColor = Color(0xffEDF2F8);//Alternative: ECF3F9
   static const buttonColor = Color(0xff3180E9);
   static const tagColor = Color(0xffEA984E);
@@ -10,7 +10,7 @@ class AppTheme {
 
   //Card colors
   static const filterRowColor = Color(0xff4E7B9A);
-  static const cardBodyColor = Color(0xff333333);
+  static const cardBodyColor = Color(0xff323838);
 
   static ThemeData getTheme() {
     return ThemeData(
