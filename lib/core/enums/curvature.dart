@@ -1,0 +1,1 @@
+enum Curvature { CurvedTop, CurvedBottom, CurvedAround, Flat }
